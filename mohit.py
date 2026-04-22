@@ -1,8 +1,5 @@
 def calculate_sum(data: list[int]) -> int:
-    """
-    This function calculates the sum of a list of integers.
-    It demonstrates proper error handling and clean structure.
-    """
+
     try:
         result = 0
         for item in data:
