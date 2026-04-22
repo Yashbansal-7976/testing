@@ -1,4 +1,5 @@
 class Node:
+    ''' this is the main Node branch, where we can create the Nodes of the Trees.'''
     def __init__(self, data):
         self.data = data
         self.left = None
